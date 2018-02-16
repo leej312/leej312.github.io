@@ -3,14 +3,18 @@
 <head>
 	<title>Easter Page</title>
 	<style>
+	 	body {
+	 		margin:0;
+
+	 	}
 		.columnleft {
 			font-size:95px;
 			/*background-color:pink;*/
 			width: 30vw;  /* Or whatever */
 	 	 	margin-top:318px;
-	  		margin-left:11.5%;
+	  		margin-left:11%;
 	  		position:fixed;
-	  		display: inline-block;
+	  		
 	  		positon:absolute;
 	  		font-family:'Helvetica';
 	  		font-weight:500;
@@ -20,10 +24,11 @@
 	  		
 			/*background-color:pink;*/
 			width: 830px;
-    		height: 723px;    
+    		height: 754px;    
     		border: 4px solid black;
 			positon:absolute;
 	  		font-family:'Helvetica';
+	  		position:fixed;
 	  		display: inline-block;
 	  		margin-left:600px;
 	  		
@@ -52,45 +57,60 @@
 	  		font-weight:normal;
 	  	}
 
-	  	.arrowleftbox {
-	  		position:absolute;
-	  		background: #d9d9d9;
-	  		width:45px;
-	  		height:80px;
-	  		font-size:50px;
-	  		margin-top:336px;
-
-	  	}
+	  
 	  	.arrowleft {
-	  		margin-top:8.5px;
-	  		margin-left:5px;
+	  		margin-top:340px;
+	  		margin-left:54px;
 	  		position:absolute;
+	  		font-size:50px;
 	  	}
 
-	  	.arrowrightbox {
-	  		position:absolute;
-	  		background: #d9d9d9;
-	  		width:45px;
-	  		height:80px;
-	  		font-size:50px;
-	  		margin-top:336px;
-	  		margin-left:550px;
-	  	}
+	  
 
 	  	.arrowright {
-	  		margin-top:8.2px;
-	  		margin-left:10px;
+	  		margin-top:340px;
+	  		margin-left:525px;
 	  		position:absolute;
+	  		font-size:50px;
 	  	}
 
 
 	  	.homepage {
-			position:absolute;
+			position: absolute;
 			font-family:"Helvetica";
 			font-weight:lighter;
 			color:#8c8c8c;
-			margin-left: 20px;
-			margin-top:3px;
+			margin-left: 10px;
+			margin-top:10px;
+			
+			font-size:19px;
+			
+		}
+		.circle {
+			position:absolute;
+			border:1.5px solid #808080;
+			width:60px;
+			/*border-radius:50%;*/
+			width: 18px;
+			height: 18px;
+			margin-left: 328px;	
+			margin-top:10px;
+			}
+		.circle:hover {
+		background-color:tomato;
+		}
+
+		.mark {
+			font-size:15px;
+			positon:absolute;
+			margin-top:0.8px;
+			margin-left:4.5px;
+			color:#808080;
+			font-family:"Helvetica";
+			font-weight: bold;
+			}
+		.mark:hover {
+		color:white;
 		}
 
 
@@ -98,11 +118,14 @@
 </head>
 
 <body>
+<div class='circle'>
+		<p class='mark'>?</p>
+	</div>
 <div class='homepage'>
-	<a href="home.html" style="text-decoration:none; color:#8c8c8c; alt="homepage">Human Knowledge</a> 
+	<a href="home2.html" style="text-decoration:none; color:#8c8c8c; alt="homepage">Robert Wrigley's Knowledge Archive</a> 
 </div>
 <div class='columnleft'>
-	Easter
+	AandC
 </div>
 
 <div class='arrowleftbox'>
