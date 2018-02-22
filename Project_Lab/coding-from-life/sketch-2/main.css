@@ -1,0 +1,156 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+  position:absolute;
+  top:30%;
+  left:40%;
+  width:40%;
+  height:23%;
+  
+  background:#c4d6f3;;
+}
+
+.book-middle {
+  position:absolute;
+  top:32%;
+  left:47%;
+  width:7.5%;
+  height:14%;
+  
+  background:#f5eded;
+}
+
+.book-top {
+  position:absolute;
+  top:32.7%;
+  left:46%;
+  width:9%;
+  height:8%;
+  
+  background:#f16363;
+}
+
+.vase {
+ 
+  position:absolute;
+  top:33.3%;
+  left:46.8%;
+  width:4%;
+  height:6.3%;
+  border-radius:50%;
+  
+  background:#fdf0df;
+}
+
+.vase-1 {
+  position:absolute;
+  top:45%;
+  left:40%;
+  width:20%;
+  height:20%;
+  border-radius:50%;
+  
+  background:grey;
+
+}
+
+.vase-2 {
+  position:absolute;
+  top:45%;
+  left:35%;
+  width:13%;
+  height:13%;
+  border-radius:50%;
+  
+  background:green;
+}
+
+.flower-1 {
+  position:absolute;
+  top:35%;
+  left:47.6%;
+  width:1.5%;
+  height:0.5%;
+  border-radius:50%;
+  background:#e2aed8;
+  transform:rotate(90deg);
+}
+
+.flower-2 {
+  position:absolute;
+  top:35.3%;
+  left:47.4%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#e2aed8;
+  transform:rotate(65deg);
+}
+
+.flower-3 {
+  position:absolute;
+  top:35.3%;
+  left:47.3%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#dc81cb;
+  transform:rotate(45deg);
+}
+
+.can {
+  position:absolute;
+  top:47%;
+  left:45%;
+  width:3%;
+  height:3.3%;
+ 
+  background:grey;
+  transform:rotate(44deg);
+}
+
+.can-1 {
+  position:absolute;
+  top:11%;
+  left:-8%;
+  width:30%;
+  height:74%;
+  
+  
+  background:grey;
+  transform:rotate(0deg);
+}
+
+.can-2 {
+  position:absolute;
+  top:11%;
+  left:100%;
+  width:8%;
+  height:74%;
+  
+  
+  background:grey;
+  transform:rotate(0deg);
+}
+
+
+/* Your CSS goes here */
