@@ -1,0 +1,115 @@
+body {
+	background:#ffe6ff;
+}
+
+p {
+	font-size:40px;
+	font-family:"Helvetica";
+	text-align:center;
+}
+
+.notdone {
+	position:absolute;
+	font-size:30px;
+	font-family:"Helvetica";
+	margin-left:90%;
+	margin-top:0;
+	
+}
+
+.ayse {
+	position:absolute;
+	top:75%;
+	left:25%;
+	width:15%;
+	height:20%;
+}
+
+.seowon {
+	position:absolute;
+	top:75%;
+	left:41%;
+	width:15%;
+	height:20%;
+}
+
+.soyeon {
+	position:absolute;
+	top:75%;
+	left:57%;
+	width:15%;
+	height:20%;
+}
+
+.khe {
+	position:absolute;
+	top:60%;
+	left:73%;
+	width:15%;
+	height:20%;
+}
+
+.chik {
+	position:absolute;
+	top:38%;
+	left:73%;
+	width:15%;
+	height:20%;
+}
+
+.eveline {
+	position:absolute;
+	top:50%;
+	left:42%;
+	width:15%;
+	height:20%;
+}
+
+.jahyun {
+	position:absolute;
+	top:27%;
+	left:42%;
+	width:15%;
+	height:20%;
+}
+
+.emil {
+	position:absolute;
+	top:55%;
+	left:9%;
+	width:15%;
+	height:20%;
+}
+
+.esra {
+	position:absolute;
+	top:33%;
+	left:9%;
+	width:15%;
+	height:20%;
+}
+
+.vincent-2 {
+	position:absolute;
+	top:11%;
+	left:9%;
+	width:15%;
+	height:20%;
+}
+
+.yang {
+	position:absolute;
+	top:16%;
+	left:73%;
+	width:15%;
+	height:20%;
+}
+
+.vincent {
+	position:absolute;
+	top:16%;
+	left:73%;
+	width:15%;
+	height:20%;
+	border-radius:50%;
+}
