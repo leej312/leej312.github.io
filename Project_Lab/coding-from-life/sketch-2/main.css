@@ -21,10 +21,10 @@ body {
 
 .table {
   position:absolute;
-  top:30%;
+  top:27%;
   left:40%;
-  width:40%;
-  height:23%;
+  width:28.6%;
+  height:29%;
   
   background:#c4d6f3;;
 }
@@ -33,7 +33,7 @@ body {
   position:absolute;
   top:32%;
   left:47%;
-  width:7.5%;
+  width:7.3%;
   height:14%;
   
   background:#f5eded;
@@ -42,18 +42,88 @@ body {
 .book-top {
   position:absolute;
   top:32.7%;
-  left:46%;
-  width:9%;
-  height:8%;
+  left:46.4%;
+  width:8.7%;
+  height:9%;
   
   background:#f16363;
+}
+
+.book-bottom {
+  position:absolute;
+  top:33%;
+  left:46.3%;
+  width:9.5%;
+  height:12%;
+  
+  background:white;
+}
+
+.book-1 {
+  position:absolute;
+  top:31%;
+  left:57%;
+  width:0.4%;
+  height:9%;
+  transform:rotate(-12deg);
+  background:blue;
+}
+
+.book-2 {
+  position:absolute;
+  top:39.4%;
+  left:57.6%;
+  width:0.8%;
+  height:0.6%;
+  
+  background:blue;
+}
+
+.book-3 {
+  position:absolute;
+  top:31%;
+  left:58.6%;
+  width:0.4%;
+  height:9%;
+  transform:rotate(12deg);
+  background:blue;
+}
+
+.book-4 {
+  position:absolute;
+  top:31%;
+  left:57.3%;
+  width:0.3%;
+  height:8.6%;
+  transform:rotate(-12deg);
+  background:grey;
+}
+
+.book-5 {
+  position:absolute;
+  top:31%;
+  left:57.9%;
+  width:0.2%;
+  height:8.6%;
+  
+  background:grey;
+}
+
+.book-6 {
+  position:absolute;
+  top:31%;
+  left:58.3%;
+  width:0.2%;
+  height:8.6%;
+  transform:rotate(6deg);
+  background:grey;
 }
 
 .vase {
  
   position:absolute;
   top:33.3%;
-  left:46.8%;
+  left:48.5%;
   width:4%;
   height:6.3%;
   border-radius:50%;
@@ -64,7 +134,7 @@ body {
 .vase-1 {
   position:absolute;
   top:45%;
-  left:40%;
+  left:45%;
   width:20%;
   height:20%;
   border-radius:50%;
@@ -87,18 +157,18 @@ body {
 .flower-1 {
   position:absolute;
   top:35%;
-  left:47.6%;
+  left:49.4%;
   width:1.5%;
   height:0.5%;
   border-radius:50%;
-  background:#e2aed8;
+  background:#dc81cb;
   transform:rotate(90deg);
 }
 
 .flower-2 {
   position:absolute;
-  top:35.3%;
-  left:47.4%;
+  top:35.1%;
+  left:49.1%;
   width:1.3%;
   height:0.5%;
   border-radius:50%;
@@ -108,14 +178,95 @@ body {
 
 .flower-3 {
   position:absolute;
-  top:35.3%;
-  left:47.3%;
+  top:35.5%;
+  left:48.8%;
   width:1.3%;
   height:0.5%;
   border-radius:50%;
   background:#dc81cb;
-  transform:rotate(45deg);
+  transform:rotate(40deg);
 }
+
+.flower-4 {
+  position:absolute;
+  top:36%;
+  left:48.7%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#e2aed8;
+  transform:rotate(22deg);
+}
+
+.flower-5 {
+  position:absolute;
+  top:36.7%;
+  left:48.8%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#dc81cb;
+  transform:rotate(-10deg);
+}
+
+.flower-6 {
+  position:absolute;
+  top:37.2%;
+  left:48.9%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#e2aed8;
+  transform:rotate(-35deg);
+}
+
+.flower-7 {
+  position:absolute;
+  top:37.5%;
+  left:49.2%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#dc81cb;
+  transform:rotate(-61deg);
+}
+
+.flower-8 {
+  position:absolute;
+  top:37.6%;
+  left:49.6%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#e2aed8;
+  transform:rotate(-90deg);
+}
+
+.flower-9 {
+  position:absolute;
+  top:37.4%;
+  left:50%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#dc81cb;
+  transform:rotate(61deg);
+}
+
+.flower-6 {
+  position:absolute;
+  top:36.9%;
+  left:50.2%;
+  width:1.3%;
+  height:0.5%;
+  border-radius:50%;
+  background:#e2aed8;
+  transform:rotate(35deg);
+}
+
+
+
+
 
 .can {
   position:absolute;
@@ -124,7 +275,7 @@ body {
   width:3%;
   height:3.3%;
  
-  background:grey;
+  background:#ffb3b3;
   transform:rotate(44deg);
 }
 
@@ -132,7 +283,7 @@ body {
   position:absolute;
   top:11%;
   left:-8%;
-  width:30%;
+  width:8%;
   height:74%;
   
   
@@ -150,6 +301,89 @@ body {
   
   background:grey;
   transform:rotate(0deg);
+}
+
+.candle { 
+  position:absolute;
+  top:41.1%;
+  left:59.4%;
+  width:3.7%;
+  height:6%;
+  border-radius:50%;
+  background:white;
+}
+
+.candle-1 {
+  position:absolute;
+  top:10%;
+  left:10%;
+  width:80%;
+  height:80%;
+  border-radius:50%;
+  background:grey;
+}
+
+.cheese {
+  position:absolute;
+  top:41.3%;
+  left:59.5%;
+  width:3.5%;
+  height:5.7%;
+  -webkit-clip-path: polygon(8% 25%, 40% 4%, 69% 44%, 44% 83%, 8% 86%);
+  clip-path: polygon(8% 25%, 40% 4%, 69% 44%, 44% 83%, 8% 86%);
+  background:#e6e600;
+}
+
+.cat {
+  position:absolute;
+  top:48%;
+  left:57%;
+  width:3%;
+  height:5%;
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  background:#ebe8e8;
+}
+
+.cat-1 {
+  position:absolute;
+  top:10%;
+  left:10%;
+  width:80%;
+  height:70%;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  background:#f6f3f3;
+}
+
+.cat-2 {
+  position:absolute;
+  top:26%;
+  left:20%;
+  width:27%;
+  height:20%;
+  background:white;
+  border-radius:50%;
+}
+
+.cat-3 {
+  position:absolute;
+  top:26%;
+  left:51.6%;
+  width:27%;
+  height:20%;
+  background:white;
+  border-radius:50%;
+}
+
+.cathand {
+  position:absolute;
+  top:49.5%;
+  left:59.8%;
+  width:0.5%;
+  height:1.3%;
+  background:#fffcfc;
+  border-radius:50%;
 }
 
 
