@@ -2,8 +2,8 @@ body {
 	background:#ffe6ff;
 }
 
-p {
-	font-size:30px;
+.headline{
+	font-size:20px;
 	font-family:"Helvetica";
 	text-align:center;
 }
@@ -59,8 +59,8 @@ p {
 
 .eveline {
 	position:absolute;
-	top:50%;
-	left:42%;
+	top:76%;
+	left:9%;
 	width:15%;
 	height:20%;
 }
@@ -113,3 +113,4 @@ p {
 	height:20%;
 	border-radius:50%;
 }
+
