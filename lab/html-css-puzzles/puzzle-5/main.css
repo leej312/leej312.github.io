@@ -1,0 +1,67 @@
+body {
+	background: #C8492C;/* Your styles go here */
+}
+
+
+
+.yellow { 
+	position: absolute;
+	background-color:#FABB36;
+	width: 94%;
+	height: 35%;
+	left:3%;
+	right:3%;
+	top: 6%;
+}
+
+.grey { 
+	position: absolute;
+	background-color:#DDCBC7;
+	width: 94%;
+	height: 15%;
+	left: 3%;
+	right: 3%;
+	top: 41%;
+}
+
+ .black {
+ 	position: absolute;
+ 	background-color: black;
+ 	width: 94%;
+ 	height: 35%;
+ 	left: 3%;
+ 	right: 3%;
+ 	top: 56%;
+ }
+
+ @media (max-width: 400px) {
+	body {
+		background: #2E3063;
+	}
+	.yellow {
+	    background-color: #3C0F20;
+    	width: 90%;
+   		height: 53%;
+   		left: 4%;
+    	right: 4%;
+    	top: 4%;
+	}
+	.grey {
+    	background-color: #385BB6;
+   		width: 90%;
+   		height: 13%;
+    	left: 4%;
+    	right: 4%;
+    	top: 57%;
+	}
+
+	.black {
+	    background-color: #3D3A5D;
+   		width: 90%;
+   		height: 23%;
+    	left: 4%;
+    	right: 4%;
+    	top: 70%;
+    }
+}
+}

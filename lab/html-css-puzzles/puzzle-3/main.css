@@ -1,0 +1,40 @@
+/* Your styles go here */
+html body {width: 100%, height 100%}
+
+.square {
+	width: 33.33%;
+	height: 33.33%;
+	float: left;
+	position: absolute;
+}
+
+.green {
+	background-color: #CBD757;
+}
+
+.gray {
+	background-color: #536570;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.one {
+	top: 0;
+	left: 0;
+}
+
+.two {
+	top: 0;
+	right: 0;
+}
+
+.three {
+	bottom: 0;
+	right: 0;
+}
+
+.four {
+	bottom: 0;
+	left: 0;
+}

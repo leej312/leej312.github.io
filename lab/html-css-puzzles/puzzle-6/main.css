@@ -1,0 +1,33 @@
+
+
+
+body{
+	margin:0;
+	padding:0;
+	}
+.title{
+	position: relative;
+	font-family: 'Krona One', sans-serif;
+	font-size:8vw;
+	margin:30px;
+	padding-left: 2%;
+}
+.subtitle{
+	position: relative;
+	font-size:1.9vw;
+	padding-left: 6%;
+
+
+}
+
+@media (max-width: 500px) {
+
+	h1 {
+	font-size: 24pt;
+	}
+
+	p {
+		font-size: 9pt;
+	}
+
+}
