@@ -1,0 +1,75 @@
+body {
+	background-color:#e4bec1;
+	margin:0;
+}
+
+.object-1 {
+	position:absolute;
+  	top:0%;
+  	left:0%;
+  	width:60%;
+  	height:70%;
+  	-webkit-clip-path: polygon(0 0, 48% 0, 81% 40%, 34% 100%);
+	clip-path: polygon(0 0, 48% 0, 81% 40%, 34% 100%);
+  	background-color:#90ccbb;
+}
+
+.object-2 {
+	position:absolute;
+  	top:8%;
+  	left:58%;
+  	width:40%;
+  	height:90%;
+  	background-color:#d5d96b;
+	-webkit-clip-path: polygon(89% 0, 27% 55%, 100% 88%);
+	clip-path: polygon(89% 0, 27% 55%, 100% 88%);
+}
+
+.object-3 {
+	position:absolute;
+  	top:42%;
+  	left:18%;
+  	width:50%;
+  	height:50%;
+  	background-color:#7bcbe3;
+	-webkit-clip-path: polygon(22% 42%, 55% 0, 100% 20%, 100% 43%, 79% 71%, 20% 100%, 0% 80%, 0 65%);
+	clip-path: polygon(22% 42%, 55% 0, 100% 20%, 100% 43%, 79% 71%, 20% 100%, 0% 80%, 0 65%);
+}
+
+.title {
+	top:30%;
+	left:24%;
+	position:absolute;
+	font-size:80pt;
+	color:white;
+}
+.index {
+	top:-2%;
+	left:88%;
+	position:absolute;
+	font-size:1.5vw;
+	color:white;
+	font-weight:bold;
+	font-family:Avenir ;
+
+}
+
+.left {
+	position:absolute;
+	top:40.5%;
+	font-size:400%;
+	font-weight:lighter;
+	color:white;
+}
+
+.right {
+	position:absolute;
+	left:97.5%;
+	top:40.5%;
+	font-size:400%;
+	font-weight:lighter;
+	color:white;
+}
+
+
+

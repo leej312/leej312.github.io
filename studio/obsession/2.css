@@ -1,0 +1,112 @@
+
+img {
+
+	position:absolute;
+	height:82%;
+	width:60%;
+	left:20%;
+	-webkit-transform: rotate(90deg);
+
+}
+
+.object-4 {
+	position:absolute;
+  	top:44%;
+  	left:44%;
+  	width:30%;
+  	height:45%;
+  	-webkit-clip-path: polygon(50% 18%, 0% 100%, 100% 82%);
+	clip-path: polygon(50% 18%, 0% 100%, 100% 82%);
+  	background-color:#d4624f;
+  	-webkit-transform: rotate(-51deg);
+}
+.object-5 {
+	position:absolute;
+  	top:2%;
+  	left:33%;
+  	width:45%;
+  	height:60%;
+	-webkit-clip-path: polygon(50% 0%, 100% 15%, 69% 78%, 10% 100%, 0% 38%);
+	clip-path: polygon(50% 0%, 100% 15%, 69% 78%, 10% 100%, 0% 38%);
+  	background-color:#fcc856;
+
+}
+
+.object-6 {
+	position:absolute;
+  	top:45%;
+  	left:26%;
+  	width:35%;
+  	height:58%;
+	-webkit-clip-path: polygon(0% 0%, 22% 44%, 33% 33%, 61% 19%, 91% 73%, 71% 91%, 33% 98%, 14% 92%, 14% 56%);
+	clip-path: polygon(0% 0%, 22% 44%, 33% 33%, 61% 19%, 91% 73%, 71% 91%, 33% 98%, 14% 92%, 14% 56%);
+  	background-color:#9dd3ec;
+  	-webkit-transform: rotate(16deg)
+}
+
+.text-1 {
+	position:absolute;
+	top:104.3%;
+	left:29%;
+	color:black;
+	font-size:18px;
+	font-family:Avenir;
+	line-height: 2;
+	
+}
+
+.text-2 {
+	position:absolute;
+	top:104.3%;
+	left:41%;
+	color:black;
+	font-size:20px;
+	font-family:Avenir;
+	font-weight:bold;
+	line-height: 1.8;
+	
+}
+
+
+.left {
+	position:absolute;
+	top:40.5%;
+	font-size:400%;
+	font-weight:lighter;
+	color:#e4bec1;
+}
+
+.right {
+	position:absolute;
+	left:97.5%;
+	top:40.5%;
+	font-size:400%;
+	font-weight:lighter;
+	color:#e4bec1;
+}
+
+.title {
+	position: absolute;
+	top:1%;
+	left:1%;
+	font-family:Avenir;
+	font-weight:normal;
+	font-size:1.5vw;
+}
+
+.index {
+	top:1%;
+	left:88%;
+	position:absolute;
+	font-size:1.5vw;
+	
+	font-weight:normal;
+	font-family:Avenir ;
+
+}
+.space {
+	position:absolute;
+	top:125%;
+	left:41%;
+	color:white;
+}
