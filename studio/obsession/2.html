@@ -4,25 +4,67 @@
     <meta charset="UTF-8">
     <title>2</title>
     <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="common.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="javascript2.js"> </script> 
+    <script src="common.js"> </script> 
   </head>
   <body>
-    <img src="image/2.jpg">
-    <div class="object-4"></div>
-    <div class="object-5"></div>
-    <div class="object-6"></div>
-
-    <div class="text text-1">Photographed by<br> Phtography of <br> Date<br> Location</div>
-
-    <div class="text text-2">Moteoh<br> Moonnyung Jo <br> 2016/06/15 <br> London </div>
-
-    <div class="title">TITLE OF WEBSITE</div>
-    <div class="index">PHOTO INDEX </div>
-    <div class="space">text</div>
 
     
-    <span class="left">&#10094;</span>
-    <span class="right">&#10095;</span>
+    
+    <div class="img-container"><img src="image/2.jpg"></div>
+    <div class="bumper-4 bumper"><div class="object-4"></div></div>
+    <div class="bumper-5 bumper"><div class="object-5"></div></div>
+    <img  src="shape/shape-2.png" class="bumper bumper-6"/>
 
+    <table class="info">
+      <tr>
+        <td class="text-1">Photographed by</td>
+        <td class="text-2">Moteo</td>
+      </tr>
+      <tr>
+        <td class="text-1">Photography by</td>
+        <td class="text-2">Moonnyung Jo</td>
+      </tr>
+      <tr>
+        <td class="text-1">Date</td>
+        <td class="text-2">2017/08/23</td>
+      </tr>
+      <tr>
+        <td class="text-1">Location</td>
+        <td class="text-2">London</td>
+      </tr>
+    </table>
+
+    <a class="right" href="1.html"></a>
+    <a class="left" href="51.html"></a>
+    
+    
+    
+    <span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a  href="#" style="color:#41cfb6;font-size:18px; font-weight:bold;">DISTRACTION</a>
+        <a href="index.html">Home</a>
+        
+        <a href="photos.html">Photo Index</a>
+        
+      </div>
+      
+
+      <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "200px";
+    }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+      </script>
   </body>
 
   </html>

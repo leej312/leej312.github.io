@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>8</title>
+    <link rel="stylesheet" href="8.css">
+    <link rel="stylesheet" href="common.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>     
+    <script src="javascript.js"> </script> 
+    <script src="common.js"> </script> 
+  </head>
+  <body>
+        
+  <div class="full-bleed"></div>
+    
+
+   <div class="objects">
+      <img  src="shape/shape-10.svg" class="bumper bumper-4"/>
+      <img  src="shape/shape-11.svg" class="bumper bumper-5"/>
+    </div>
+
+    <table class="info">
+      <tr>
+        <td class="text-1">Photographed by</td>
+        <td class="text-2">Moonnyung Jo</td>
+      </tr>
+      <tr>
+        <td class="text-1">Photography of</td>
+        <td class="text-2">Jahyun Lee</td>
+      </tr>
+      <tr>
+        <td class="text-1">Date</td>
+        <td class="text-2">2017/01/25</td>
+      </tr>
+      <tr>
+        <td class="text-1">Location</td>
+        <td class="text-2">239 Centre St, NY</td>
+      </tr>
+    </table>
+
+    
+    
+     <div class="right"></div>
+     <div class="left"></div>
+    
+    
+    
+    <span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a  href="#" style="color:#41cfb6;font-size:18px; font-weight:bold;">DISTRACTION</a>
+        <a href="index.html">Home</a>
+        
+        <a href="photos.html">Photo Index</a>
+        
+      </div>
+      
+
+      <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "200px";
+    }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+      </script>
+  
+     
+  </body>
+
+</html>

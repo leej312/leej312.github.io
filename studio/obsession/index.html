@@ -3,17 +3,59 @@
   <head>
     <meta charset="UTF-8">
     <title>obsession</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="javascript.js"> </script> 
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="common.css">
   </head>
   <body>
-  	<p class="title">title of website</p>
-  	<p class="index">PHOTO INDEX</p>
-  	<div class="object object-1"></div>
-  	<div class="object object-2"></div>
-  	<div class="object object-3"></div>
+  	<p class="title">DISTRACTION</p>
 
-    <span class="left">&#10094;</span>
-    <span class="right">&#10095;</span>
+    <div class="img-container"></div>
+  	
+    
+  	<div class="objects">
+      <div class="bumper-4 bumper"><div class="object-4 shape">4</div></div>
+      <div class="bumper-5 bumper"><div class="object-5 shape">5</div></div>
+      <div class="bumper-6 bumper"><div class="object-6 shape">6</div></div>
+    </div>
+
+    
+    <div class="detail">This website is an archive of 70 personal photos. The photos were picked based on the concept of this website accordingly.<br>
+
+  These pictures have background objects, person, animals, colors, or anything that stands out or disturbs the main focus.<br>
+
+  The shapes are placed to give a sense of disturbance for users, viewing the photos and to help users find their own perspectives of the photos. 
+  Users can move the shapes around by moving the mouse cursor.</div>
+    <a class="right" href="1.html"></a>
+    <a class="left" href="51.html"></a>
+    
+    
+    
+    
+    <span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a  href="#" style="color:#41cfb6;font-size:18px; font-weight:bold;">DISTRACTION</a>
+        <a href="index.html">Home</a>
+        
+        <a href="photos.html">Photo Index</a>
+        
+      </div>
+      
+
+      <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "200px";
+    }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+      </script>
     
   </body>
 
