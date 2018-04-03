@@ -4,10 +4,11 @@ html, body {
 }
 
 .detail {	
-
+    
 	top:100%;
 	font-family:Courier New;
 	position: absolute;
+	left:2%;
 }
 
 .bumper-4{
