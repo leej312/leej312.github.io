@@ -1,0 +1,155 @@
+<!-- original by https://jsfiddle.net/leaverou/7rnQP/ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="images/polygon1.png" type="image/x-icon"/>
+    <title>Masterpiece</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+   
+    
+    
+    
+  
+  </head>
+
+  <body>
+       <div class="full-bleed"></div>
+        
+       <div class="css-typing" >
+          <div>
+            
+          </div>
+          <div>
+            Thousand times worse than me eating strands  
+          </div>
+          <div>
+         of my cat's fur everytime I eat or drink.
+          </div>
+      </div>
+
+
+      <div class="css-typing2" >
+        <div>
+        </div>
+        <div>
+         Should I dryclean everytime I use it?
+        </div>
+        <div>
+        to maintain it's condition?
+        </div>
+      </div>
+
+      <div class="css-typing3" >
+        <div>
+        </div>
+        <div>
+        Would it smell bad if I don't wash it  
+        </div>
+        <div>
+        for a long time? like a stack of laundry?
+        </div>
+      </div>
+
+      <div class="css-typing4" >
+        <div>
+        </div>
+        <div>
+        what if the fur grows? 
+       </div>
+      </div>
+
+      <div onmouseover="Play()" onmouseout="Pause()"> 
+        <video class="video1" loop>
+          <source src="images/video1.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div onmouseover="Play()" onmouseout="Pause()"> 
+        <video class="video2" loop>  
+          <source src="images/video2.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div onmouseover="Play()" onmouseout="Pause()"> 
+        <video class="video3" loop>  
+          <source src="images/video3.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div onmouseover="Play()" onmouseout="Pause()"> 
+        <video class="video4" loop>  
+          <source src="images/video4.mp4" type="video/mp4" />
+        </video>
+      </div>
+      
+      <div onmouseover="Play()" onmouseout="Pause()"> 
+        <video class="video5" loop>  
+          <source src="images/video5.mp4" type="video/mp4" />
+        </video>
+      </div>
+     
+
+      <script type="text/javascript"> 
+      var $video1= $('.video1'); 
+
+      $video1.on('mouseenter', function (){
+          $video1.get(0).play();
+      }); 
+
+      $video1.on('mouseout', function (){
+          $video1.get(0).pause();
+      });    
+
+      var $video2= $('.video2'); 
+
+      $video2.on('mouseenter', function (){
+          $video2.get(0).play();
+      }); 
+
+      $video2.on('mouseout', function (){
+          $video2.get(0).pause();
+      });     
+      
+      var $video3= $('.video3'); 
+
+      $video3.on('mouseenter', function (){
+          $video3.get(0).play();
+      }); 
+
+      $video3.on('mouseout', function (){
+          $video3.get(0).pause();
+      }); 
+
+
+      var $video4= $('.video4'); 
+
+      $video4.on('mouseenter', function (){
+          $video4.get(0).play();
+      }); 
+
+      $video4.on('mouseout', function (){
+          $video4.get(0).pause();
+      }); 
+
+
+       var $video5= $('.video5'); 
+
+      $video5.on('mouseenter', function (){
+          $video5.get(0).play();
+      }); 
+
+      $video5.on('mouseout', function (){
+          $video5.get(0).pause();
+      }); 
+      </script> 
+      
+       
+    
+     
+
+    </body>
+</html>
