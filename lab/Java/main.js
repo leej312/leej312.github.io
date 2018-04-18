@@ -32,14 +32,6 @@ var group4 = students[2]
 var group5 = students[8,9,10]
 var group6 = students[3,6]
 
-
-var studentsMissing ['no one is missing']
-console.log(0);
-
-for ( var i = 0; i < 10; i++ ) {
-  console.log('The index is', i);
-}
-
 var students = [
   'Kristen',
   'Evelin',
@@ -58,6 +50,8 @@ var students = [
   'Emil'
 ];
 
-for ( var i = 0; i < students.length; i++ ) {
-  console.log( students[i] + ' is in index ' + i );
-}
+var allStudentsHere =true
+
+var studentMissing ['no one is absent']
+
+console.log(studentMissing.length); 
