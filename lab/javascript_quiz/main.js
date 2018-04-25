@@ -23,4 +23,8 @@ var a = "Jahyun";
 var b = "Lee";
 var c = a + b;
 
+/* 9 */
+var d = new Date();
+document.getElementById("9").innerHTML = d;
+
 
