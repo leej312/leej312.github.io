@@ -27,4 +27,6 @@ var c = a + b;
 var d = new Date();
 document.getElementById("9").innerHTML = d;
 
+var myFood = ['Pad Thai', 'Tom Yam Soup' , ]
+
 

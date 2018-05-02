@@ -1,0 +1,15 @@
+.body {
+	top:0;
+	left:0;
+	position:absolute;
+	width:100%;
+	height:auto;
+	object-fit: cover;
+}/* Your styles go here */
+
+.text {
+	position:relative;
+	display: inline-block;
+	font-family:courier;
+	padding:8%;
+}

@@ -1,0 +1,35 @@
+body {
+	background:black;
+}
+
+#month {
+	color:pink;
+	font-size:15vw;
+	font-family:courier;
+	margin-left:10%;
+}
+
+#day {
+	color:green;
+	font-size:15vw;
+	font-family:courier;
+	margin-left:20%;
+}
+
+#year {
+	color:grey;
+	font-size:10vw;
+	font-family:courier;
+	margin-left:30%;
+}
+
+body {
+	background:black;
+}
+
+p {
+	position:absolute;
+	color:white;
+	font-family:courier;
+
+}
