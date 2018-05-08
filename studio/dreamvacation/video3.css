@@ -1,0 +1,181 @@
+body, html {
+  height:100%;
+  margin:0;
+}
+
+@font-face {
+  font-family:'Avenir Next Condensed';src:url("Avenir_Next_Condensed.ttc");
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: -1;
+ 
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: relative;
+  top: 30%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+.css-typing3 {
+    font-family:"Avenir Next Condensed";
+    position:absolute;
+    font-size:2.5vw;
+    top:6%;
+    left:20%;
+    color:#363639;
+}
+
+.css-typing3 div{
+ 
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type1 4s steps(40, end);
+  
+}
+
+.css-typing3 div:nth-child(2) {
+  width: 27em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 13s;
+  animation-delay: 13s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  
+}
+
+.css-typing3 div:nth-child(3) {
+  width: 25em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type3 4s steps(40, end);
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  
+  
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.box {
+  position: absolute;
+  background-color: red;
+  left:15%;
+  top:66%;
+  height:33%;
+  width:35%;
+  opacity: 0;
+
+}

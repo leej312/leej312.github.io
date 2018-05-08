@@ -1,0 +1,190 @@
+body, html {
+  height:100%;
+  margin:0;
+}
+
+@font-face {
+  font-family:'Avenir Next Condensed';src:url("Avenir_Next_Condensed.ttc");
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: -1;
+ 
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: relative;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+.video-overlay {
+  position: relative;
+  background-color: red;
+  left:40%;
+  margin-top:17%;
+  height:20%;
+  width:40%;
+  opacity: 0;
+}
+
+.video-overlay2 {
+  position: relative;
+  background-color: red;
+  left:49%;
+  margin-top:0%;
+  height:23%;
+  width:20%;
+  opacity: 0;
+}
+
+.css-typing3 {
+    font-family:"Avenir Next Condensed";
+    position:absolute;
+    font-size:2.5vw;
+    top:6%;
+    left:20%;
+    color:#363639;
+}
+
+.css-typing3 div{
+ 
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type1 4s steps(40, end);
+  
+}
+
+.css-typing3 div:nth-child(2) {
+  width: 27em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  
+}
+
+.css-typing3 div:nth-child(3) {
+  width: 25em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type3 4s steps(40, end);
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  
+  
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

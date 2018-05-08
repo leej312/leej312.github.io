@@ -1,0 +1,221 @@
+body, html {
+	height:100%;
+	margin:0;
+}
+
+@font-face {
+	font-family:'Avenir Next Condensed';src:url("Avenir_Next_Condensed.ttc");
+}
+
+.full-bleed {
+	background-image: url("images/laundry.jpg");
+
+    /* Full height */
+     
+    height:100%;
+    
+   	overflow:hidden;
+	position:relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 {
+	position: absolute;
+	background:black;
+	height:100%;
+	width:100%;
+	opacity:0.6;
+	top:0;
+}
+
+.css-typing4 {
+    position:absolute;
+    color:white;
+    font-size:2.2vw;
+    top:44%;
+    left:38%;
+}
+
+.css-typing3 {
+    position:absolute;
+    font-size:1.8vw;
+    top:59%;
+    left:46%;
+    color:white;
+}
+
+i {
+	position:absolute;
+    font-size:1.8vw;
+    top:59.5%;
+    left:53%;
+    
+}
+
+
+.css-typing4 div{
+  
+  font-family: 'Avenir Next Condensed';
+  font-size: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type1 5s steps(40, end);
+  animation:blink-caret .5s step-end infinite; 
+  
+}
+
+.css-typing4 div:nth-child(2) {
+  width: 14em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+
+.css-typing3 div{
+  
+  font-family: 'Avenir Next Condensed';
+  font-size: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 2s steps(1, end);
+  animation: type1 2s steps(1, end);
+  animation:blink-caret .5s step-end infinite; 
+  
+}
+
+.css-typing3 div:nth-child(2) {
+  width: 14em;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 2s steps(1, end);
+  animation: type2 2s steps(1, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+i{
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 6s steps(1, end);
+  animation: type1 6s steps(1, end);
+  
+}
+
+
+
+
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type1 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type1 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.em:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
