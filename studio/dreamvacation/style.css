@@ -5,55 +5,33 @@
 }
 
 
-#video-container1 {
+.video-container {
   position: absolute;
   top: 0;
   bottom: 0;
-  left:0;
-  width: 50%;
+  width: 100%;
   height: 100%; 
   overflow: hidden;
   z-index: -1;
-
+ 
 }
-.video1{
-  /* Make video to at least 100% wde and tall */
+.video-container video {
+  /* Make video to at least 100% wide and tall */
   min-width: 100%; 
   min-height: 100%; 
-  margin: auto;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: visible;
-  z-index: -1;
-  height: auto;
- }
 
-#video-container2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left:50%;
-  width: 51%;
-  height: 100%;
-  overflow: hidden;
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: relative;
+  top: 5%;
+  left: 48%;
+  transform: translate(-50%,-50%);
   z-index: -1;
-  
 }
 
-.video2 {
-  min-width: 100%; 
-  min-height: 100%; 
-  margin: auto;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: visible;
-  height: auto;
-  z-index: -1;
-}
 
 #text1 {
 	font-size:2vw;
