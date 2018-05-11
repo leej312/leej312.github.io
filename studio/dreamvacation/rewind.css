@@ -1,0 +1,70 @@
+
+
+@font-face {
+	font-family:'DK Lemon Yellow Sun';src:url("font/DK_Lemon_Yellow_Sun.otf");
+}
+
+
+.video-container {
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  height: 120.5%; 
+  overflow: hidden;
+  z-index: -1;
+ 
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: relative;
+  top: 59%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+
+}
+
+
+#text1 {
+	font-size:2vw;
+  color:white;
+	position:relative;
+	display: inline-block;
+	font-family:'DK Lemon Yellow Sun';
+	height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0;
+  z-index: 1;
+  cursor: pointer;
+ 
+}
+
+#rewind {
+  positon:absolute;
+  color:white;
+  font-size:2vw;
+  height:2%;
+  width:2%;
+}
+
+#fastforward {
+  positon:absolute;
+  color:white;
+  font-size:2vw;
+  height:0.5%;
+  width:2%;
+  margin-left:3%;
+}
+
+
