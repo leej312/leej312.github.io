@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" href="images/icon.png" type="image/x-icon"/>
   <meta charset="UTF-8">
   <title>Dream Vacation</title>
-  <link rel="stylesheet" href="main.css">
-  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../dist/css/animsition.min.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-<script src="../dist/js/animsition.min.js"></script>
-
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-  <div class="full-bleed"></div>
+ <div id="video-container1">
+  <video class="video1" autoplay loop>
+  	<source src="video1.mp4" type="video/mp4" value="play">
+  </video>
+ </div>
 
-  <div class="box2"></div>
+ <div id="video-container2">
+  <video class="video2" autoplay loop>
+  	<source src="video2.mp4" type="video/mp4">
+  </video>
+ </div>
 
-  <div class="css-typing4">
-    <div></div>
-    <div>01&nbsp;&nbsp;/&nbsp;&nbsp;04 &nbsp;&nbsp;&nbsp;'Desk &nbsp;Mass'</div>
-  </div>
-  
-  <div class="css-typing3">
-    <div></div>
-    <div>HELP</div>
-  </div>
+<div id="icon">
+  <img class="icon" src="icon.png" height="100" width="100" value="play" type="range" max="10" step="0.1" >
+      </div>
 
-  <a href="DeskMess.html" target="_blank" class="animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="2000">
-    <i class="em em-worried"></i>
-  </a>
+  <div id="text1">01 / 04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Desk Mess'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04/28</div>
 
 
+<div id="fadeup">
+ <div id="box1"></div>
+ <div class="text2">
+	 <svg viewBox="0 0 500 110">
+	    <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+	    <text width="0">
+	      <textPath xlink:href="#curve">
+	         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MY MOM LIKE LESS STUFFS ON DESK
+	      </textPath>
+	    </text>
+	  </svg>
+ </div>
+ 
+</div>
+
+
+
+
+  <!-- JavaScript files are included at the end -->
   <script src="../shared_assets/jquery-3.2.1.min.js"></script>
   <script src="main.js"></script>
 </body>

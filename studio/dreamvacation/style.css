@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family:'DK Lemon Yellow Sun';src:url("DK_Lemon_Yellow_Sun.otf");
+}
+
+
+#video-container1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  width: 50%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: -1;
+
+}
+.video1{
+  /* Make video to at least 100% wde and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+  margin: auto;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  z-index: -1;
+  
+  height: auto;
+ }
+
+#video-container2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:50%;
+  width: 51%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  
+}
+
+.video2 {
+  min-width: 100%; 
+  min-height: 100%; 
+  margin: auto;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  height: auto;
+  z-index: -1;
+}
+
+#text1 {
+	font-size:2vw;
+  color:white;
+	position:relative;
+	display: inline-block;
+	font-family:'DK Lemon Yellow Sun';
+	height: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0;
+  z-index: 1;
+  cursor: pointer;
+ 
+}
+
+.text2 {
+  position: relative;
+  font-family: 'DK Lemon Yellow Sun';
+  font-size: 20px;
+  fill: white;
+  margin-top:-3%;
+  transform: scaleX(0.8);
+
+  
+  z-index: 1;
+  cursor: pointer;
+}
+
+path {
+  fill: transparent;
+}
+
+.text3 {
+	font-size:2vw;
+  margin-top:2%;
+  color:white;
+	position:relative;
+	display: inline-block;
+	font-family:'DK Lemon Yellow Sun';
+	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#box1 {
+    position: absolute;
+    background:black;
+    height:100%;
+    width:100%;
+    opacity:0.7;
+    top:0;
+    left:0;
+    
+
+}
+
+.icon {
+  /*background: url("icon.png");
+  background-size: cover;*/
+  height: 40px; 
+  width: 40px;
+  margin-top: -10px;
+  z-index: ;
+  cursor: pointer;
+}
+
+
+
